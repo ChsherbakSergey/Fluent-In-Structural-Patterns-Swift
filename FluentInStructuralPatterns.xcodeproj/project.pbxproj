@@ -23,6 +23,19 @@
 		A55817B02673D98600FAEFA8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55817AF2673D98600FAEFA8 /* UIView.swift */; };
 		A55817B42673D9A400FAEFA8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55817B32673D9A400FAEFA8 /* UIColor.swift */; };
 		A55817B82673DA4400FAEFA8 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55817B72673DA4400FAEFA8 /* UIFont.swift */; };
+		A55828C32675003100254183 /* MVPCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828C22675003100254183 /* MVPCoordinator.swift */; };
+		A55828CB267500BF00254183 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828CA267500BF00254183 /* NewsViewController.swift */; };
+		A55828CF2675050F00254183 /* NewsPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828CE2675050F00254183 /* NewsPresenterInterface.swift */; };
+		A55828D22675052100254183 /* NewsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828D12675052100254183 /* NewsPresenter.swift */; };
+		A55828D5267505D200254183 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828D4267505D200254183 /* Post.swift */; };
+		A55828DA2675061100254183 /* NewsNetworkingManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828D92675061100254183 /* NewsNetworkingManagerInterface.swift */; };
+		A55828DE2675063A00254183 /* NewsNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828DD2675063A00254183 /* NewsNetworkingManager.swift */; };
+		A55828E22675066C00254183 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828E12675066C00254183 /* URLConstants.swift */; };
+		A55828EC26750BB300254183 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828EB26750BB300254183 /* NetworkingError.swift */; };
+		A55828F126750C8600254183 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828F026750C8600254183 /* AlertFactory.swift */; };
+		A55828F926750E7800254183 /* NewsViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828F826750E7800254183 /* NewsViewControllerDataSource.swift */; };
+		A55828FD267510E100254183 /* NewsViewContoller + UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55828FC267510E100254183 /* NewsViewContoller + UI.swift */; };
+		A55829012675117600254183 /* NewsViewControllerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55829002675117600254183 /* NewsViewControllerViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +57,19 @@
 		A55817AF2673D98600FAEFA8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A55817B32673D9A400FAEFA8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		A55817B72673DA4400FAEFA8 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		A55828C22675003100254183 /* MVPCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPCoordinator.swift; sourceTree = "<group>"; };
+		A55828CA267500BF00254183 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		A55828CE2675050F00254183 /* NewsPresenterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPresenterInterface.swift; sourceTree = "<group>"; };
+		A55828D12675052100254183 /* NewsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPresenter.swift; sourceTree = "<group>"; };
+		A55828D4267505D200254183 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A55828D92675061100254183 /* NewsNetworkingManagerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNetworkingManagerInterface.swift; sourceTree = "<group>"; };
+		A55828DD2675063A00254183 /* NewsNetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNetworkingManager.swift; sourceTree = "<group>"; };
+		A55828E12675066C00254183 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		A55828EB26750BB300254183 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		A55828F026750C8600254183 /* AlertFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactory.swift; sourceTree = "<group>"; };
+		A55828F826750E7800254183 /* NewsViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewControllerDataSource.swift; sourceTree = "<group>"; };
+		A55828FC267510E100254183 /* NewsViewContoller + UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsViewContoller + UI.swift"; sourceTree = "<group>"; };
+		A55829002675117600254183 /* NewsViewControllerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewControllerViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,7 @@
 		A55817692673C8B900FAEFA8 /* FluentInStructuralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				A55828EF26750C7600254183 /* Factories */,
 				A55817AE2673D88600FAEFA8 /* Extension */,
 				A55817A72673D7AD00FAEFA8 /* UI Elements */,
 				A558177F2673CA0000FAEFA8 /* AppDelegate */,
@@ -108,6 +135,7 @@
 		A55817812673CA4900FAEFA8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A55828C62675009A00254183 /* MVP */,
 				A55817822673CA5400FAEFA8 /* MVVM + Data Driven UI */,
 			);
 			path = Screens;
@@ -126,6 +154,7 @@
 		A55817842673CA7400FAEFA8 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				A55828C12675001900254183 /* MVP Coordinator */,
 				A55817912673CC9300FAEFA8 /* CoordinatorConfigurator */,
 				A558178A2673CB9A00FAEFA8 /* MVVM Coordinator */,
 				A55817852673CA7B00FAEFA8 /* Protocol */,
@@ -217,6 +246,136 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		A55828C12675001900254183 /* MVP Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A55828C22675003100254183 /* MVPCoordinator.swift */,
+			);
+			path = "MVP Coordinator";
+			sourceTree = "<group>";
+		};
+		A55828C62675009A00254183 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				A55828E02675066100254183 /* Constants */,
+				A55828D7267505F400254183 /* Managers */,
+				A55828C9267500AF00254183 /* Model */,
+				A55828C8267500AA00254183 /* Presenter */,
+				A55828C7267500A500254183 /* Controller */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		A55828C7267500A500254183 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A55828FF2675115F00254183 /* ViewDelegate */,
+				A55828F726750E5E00254183 /* Datasourse */,
+				A55828CA267500BF00254183 /* NewsViewController.swift */,
+				A55828FC267510E100254183 /* NewsViewContoller + UI.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A55828C8267500AA00254183 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A55828CD267504FA00254183 /* Interface */,
+				A55828D12675052100254183 /* NewsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A55828C9267500AF00254183 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A55828D4267505D200254183 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A55828CD267504FA00254183 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A55828CE2675050F00254183 /* NewsPresenterInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		A55828D7267505F400254183 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A55828E926750B9600254183 /* Error */,
+				A55828D8267505FC00254183 /* Networking */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A55828D8267505FC00254183 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A55828DC2675062700254183 /* Protocol */,
+				A55828DD2675063A00254183 /* NewsNetworkingManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A55828DC2675062700254183 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A55828D92675061100254183 /* NewsNetworkingManagerInterface.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A55828E02675066100254183 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A55828E12675066C00254183 /* URLConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A55828E926750B9600254183 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				A55828EA26750B9E00254183 /* NetworkingError */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		A55828EA26750B9E00254183 /* NetworkingError */ = {
+			isa = PBXGroup;
+			children = (
+				A55828EB26750BB300254183 /* NetworkingError.swift */,
+			);
+			path = NetworkingError;
+			sourceTree = "<group>";
+		};
+		A55828EF26750C7600254183 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				A55828F026750C8600254183 /* AlertFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		A55828F726750E5E00254183 /* Datasourse */ = {
+			isa = PBXGroup;
+			children = (
+				A55828F826750E7800254183 /* NewsViewControllerDataSource.swift */,
+			);
+			path = Datasourse;
+			sourceTree = "<group>";
+		};
+		A55828FF2675115F00254183 /* ViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A55829002675117600254183 /* NewsViewControllerViewDelegate.swift */,
+			);
+			path = ViewDelegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,19 +446,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55817982673D15200FAEFA8 /* AuthorizationState + Response.swift in Sources */,
+				A55828C32675003100254183 /* MVPCoordinator.swift in Sources */,
+				A55828CF2675050F00254183 /* NewsPresenterInterface.swift in Sources */,
 				A558176F2673C8B900FAEFA8 /* AuthorizationViewController.swift in Sources */,
+				A55829012675117600254183 /* NewsViewControllerViewDelegate.swift in Sources */,
+				A55828DA2675061100254183 /* NewsNetworkingManagerInterface.swift in Sources */,
+				A55828F126750C8600254183 /* AlertFactory.swift in Sources */,
 				A55817872673CA8D00FAEFA8 /* Coordinatable.swift in Sources */,
 				A558176B2673C8B900FAEFA8 /* AppDelegate.swift in Sources */,
 				A55817B02673D98600FAEFA8 /* UIView.swift in Sources */,
 				A558178C2673CBAE00FAEFA8 /* MVVMCoordinator.swift in Sources */,
+				A55828FD267510E100254183 /* NewsViewContoller + UI.swift in Sources */,
+				A55828EC26750BB300254183 /* NetworkingError.swift in Sources */,
 				A558176D2673C8B900FAEFA8 /* SceneDelegate.swift in Sources */,
 				A55817932673CCA700FAEFA8 /* CoordinatorConfigurator.swift in Sources */,
 				A55817AB2673D7D000FAEFA8 /* BounceButton.swift in Sources */,
 				A55817B42673D9A400FAEFA8 /* UIColor.swift in Sources */,
 				A55817B82673DA4400FAEFA8 /* UIFont.swift in Sources */,
 				A55817A32673D6B400FAEFA8 /* AuthorizationView + UIElements.swift in Sources */,
+				A55828DE2675063A00254183 /* NewsNetworkingManager.swift in Sources */,
 				A558179D2673D1FD00FAEFA8 /* AuthorizationViewModel.swift in Sources */,
+				A55828D22675052100254183 /* NewsPresenter.swift in Sources */,
+				A55828D5267505D200254183 /* Post.swift in Sources */,
+				A55828E22675066C00254183 /* URLConstants.swift in Sources */,
 				A55817A02673D54500FAEFA8 /* AuthorizationView.swift in Sources */,
+				A55828F926750E7800254183 /* NewsViewControllerDataSource.swift in Sources */,
+				A55828CB267500BF00254183 /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +643,316 @@
 			};
 			name = Release;
 		};
+		A55828B42674FF2000254183 /* Debug MVVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG MVVM";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug MVVM";
+		};
+		A55828B52674FF2000254183 /* Debug MVVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUF6JQVK4V;
+				INFOPLIST_FILE = FluentInStructuralPatterns/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chsherbaksergey.FluentInStructuralPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug MVVM";
+		};
+		A55828B62674FF3700254183 /* Release MVVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = MVVM;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release MVVM";
+		};
+		A55828B72674FF3700254183 /* Release MVVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUF6JQVK4V;
+				INFOPLIST_FILE = FluentInStructuralPatterns/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chsherbaksergey.FluentInStructuralPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release MVVM";
+		};
+		A55828B82674FF3E00254183 /* Debug MVP */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG MVP";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug MVP";
+		};
+		A55828B92674FF3E00254183 /* Debug MVP */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUF6JQVK4V;
+				INFOPLIST_FILE = FluentInStructuralPatterns/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chsherbaksergey.FluentInStructuralPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug MVP";
+		};
+		A55828BA2674FF4900254183 /* Release MVP */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = MVP;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release MVP";
+		};
+		A55828BB2674FF4900254183 /* Release MVP */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUF6JQVK4V;
+				INFOPLIST_FILE = FluentInStructuralPatterns/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chsherbaksergey.FluentInStructuralPatterns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release MVP";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -478,7 +960,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A55817792673C8BD00FAEFA8 /* Debug */,
+				A55828B82674FF3E00254183 /* Debug MVP */,
+				A55828B42674FF2000254183 /* Debug MVVM */,
 				A558177A2673C8BD00FAEFA8 /* Release */,
+				A55828BA2674FF4900254183 /* Release MVP */,
+				A55828B62674FF3700254183 /* Release MVVM */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -487,7 +973,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A558177C2673C8BD00FAEFA8 /* Debug */,
+				A55828B92674FF3E00254183 /* Debug MVP */,
+				A55828B52674FF2000254183 /* Debug MVVM */,
 				A558177D2673C8BD00FAEFA8 /* Release */,
+				A55828BB2674FF4900254183 /* Release MVP */,
+				A55828B72674FF3700254183 /* Release MVVM */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

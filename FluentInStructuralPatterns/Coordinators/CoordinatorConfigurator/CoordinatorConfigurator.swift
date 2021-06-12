@@ -14,6 +14,12 @@ final class CoordinatorConfigurator {
         
         let navigationController = UINavigationController()
         
+        #if MVVM
         return MVVMCoordinator(navigationController: navigationController)
+        #elseif MVP
+        return MVPCoordinator(navigationController: navigationController)
+        #else
+        return MVVMCoordinator(navigationController: navigationController)
+        #endif
     }
 }
