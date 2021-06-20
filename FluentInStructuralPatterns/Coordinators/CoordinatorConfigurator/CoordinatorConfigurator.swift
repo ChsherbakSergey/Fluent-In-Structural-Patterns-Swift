@@ -18,7 +18,9 @@ final class CoordinatorConfigurator {
         return MVVMCoordinator(navigationController: navigationController)
         #elseif MVP
         return MVPCoordinator(navigationController: navigationController)
-        #else
+        #elseif ADAPTER
+        return AdapterCoordinator(navigationController: navigationController)
+        #else 
         return MVVMCoordinator(navigationController: navigationController)
         #endif
     }
