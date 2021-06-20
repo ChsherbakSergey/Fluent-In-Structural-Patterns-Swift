@@ -20,7 +20,9 @@ final class CoordinatorConfigurator {
         return MVPCoordinator(navigationController: navigationController)
         #elseif ADAPTER
         return AdapterCoordinator(navigationController: navigationController)
-        #else 
+        #elseif VIP
+        return VIPCoordinator(navigationController: navigationController)
+        #else
         return MVVMCoordinator(navigationController: navigationController)
         #endif
     }
